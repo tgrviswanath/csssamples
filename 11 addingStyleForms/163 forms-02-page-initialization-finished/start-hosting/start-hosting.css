@@ -1,0 +1,22 @@
+/*adding selector for main element*/
+
+main {
+    padding-top: 1rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+
+/*combine descendant combinator , to ensure only elements which are inside of that form receive that style-- this is combinator approach*/
+/*margin-top: 1rem; is to make distace btw these elements*/
+/*width 100% to force them to expand over to full of oard width*/
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
